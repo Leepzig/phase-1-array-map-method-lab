@@ -21,8 +21,10 @@ const tutorials = [
 
 // const titleCased = (tutorials) => titleChanger(tutorials).map(tutorial => tutorial.join())
 
-//map split each one
-//map word[0].toUpperCase
+//map to get each title alone
+//map to make each word an element in an array
+//map to split each word[0].toUpperCase + rest word
+//map .join(" ")?
 
 const titleCased = (tutorials) => {
   return tutorials.map(tutorial => {

@@ -26,7 +26,7 @@ const tutorials = [
 //map to split each word[0].toUpperCase + rest word
 //map .join(" ")?
 
-const titleCased = (tutorials) => {
+const titleCased = () => {
   return tutorials.map(tutorial => {
     let title = tutorial.split(" ").map( word => {
       return (word[0].toUpperCase() + word.slice(1, word.length))
